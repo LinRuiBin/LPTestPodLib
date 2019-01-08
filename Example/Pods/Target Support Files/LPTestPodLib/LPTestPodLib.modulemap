@@ -1,0 +1,6 @@
+framework module LPTestPodLib {
+  umbrella header "LPTestPodLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "LPTestPodLib",
+  "version": "0.1.0",
+  "summary": "A short description of LPTestPodLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LinRuiBin/LPTestPodLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LinRuiBin": "18675079557@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LinRuiBin/LPTestPodLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LPTestPodLib/Classes/**/*"
+}

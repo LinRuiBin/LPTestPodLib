@@ -1,0 +1,16 @@
+PODS:
+  - LPTestPodLib (0.1.0)
+
+DEPENDENCIES:
+  - LPTestPodLib (from `../`)
+
+EXTERNAL SOURCES:
+  LPTestPodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LPTestPodLib: 5e8fe40027d8f2dd9fa7857c4b1d7050613880b3
+
+PODFILE CHECKSUM: 321487766bc311b8d14b6a51534d06b420d478ed
+
+COCOAPODS: 1.5.3

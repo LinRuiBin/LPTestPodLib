@@ -7,8 +7,9 @@
 //
 
 #import "LPViewController.h"
-
+#import "LPTestObj.h"
 @interface LPViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
 
 @end
 
@@ -24,6 +25,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)test:(id)sender {
+    _testLabel.text = [[LPTestObj new] sayHelloToPod];
 }
 
 @end
